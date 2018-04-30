@@ -23,9 +23,9 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_alignParentLeft="true"
-                android:text="Record Workout"
+                android:text="@string/record_workout"
                 android:textStyle="bold"
-                android:textSize="28dp"/>
+                android:textSize="30dp"/>
 
             <ImageButton
                 android:id="@+id/userProfileButton1"
@@ -37,31 +37,31 @@
         </RelativeLayout>
         <TableLayout
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="90dp"
             android:stretchColumns="*">
             <TableRow>
                 <TextView
-                    android:text="DISTANCE"
-                    android:textSize="16dp"
+                    android:text="@string/distance_uppercase"
+                    android:textSize="14sp"
                     android:layout_gravity="center_horizontal">
                 </TextView>
                 <TextView
-                    android:text="DURATION"
-                    android:textSize="16dp"
+                    android:text="@string/duration_uppercase"
+                    android:textSize="14sp"
                     android:layout_gravity="center_horizontal">
                 </TextView>
             </TableRow>
             <TableRow>
                 <TextView
                     android:text="2.6"
-                    android:textSize="32dp"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     android:layout_gravity="center_horizontal">
 
                 </TextView>
                 <TextView
                     android:text="0:25:52"
-                    android:textSize="32dp"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     android:layout_gravity="center_horizontal">
                 </TextView>
@@ -69,29 +69,34 @@
             <TableRow>
                 <TextView
                     android:text="km"
-                    android:textSize="16dp"
+                    android:textSize="14sp"
                     android:layout_gravity="center_horizontal">
                 </TextView>
                 <TextView
                     android:text="Minutes"
-                    android:textSize="16dp"
+                    android:textSize="14sp"
                     android:layout_gravity="center_horizontal">
                 </TextView>
             </TableRow>
         </TableLayout>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment">
+        </fragment>
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="55dp"
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_margin="5dp"
             android:backgroundTint="@color/green"
-            android:text="Start Workout"
+            android:text="@string/start_workout_uppercase"
             android:textColor="@color/white"/>
     </RelativeLayout>
 </RelativeLayout>
