@@ -90,13 +90,14 @@
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary">
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:backgroundTint="@color/green"
             android:text="@string/start_workout_uppercase"
             android:textColor="@color/white"
-            android:onClick="startWorkout"/>
+            android:onClick="startWorkout"
+            android:id="@+id/workoutButton"/>
     </RelativeLayout>
 
 </RelativeLayout>

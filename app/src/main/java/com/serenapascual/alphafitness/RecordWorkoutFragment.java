@@ -8,9 +8,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 
 public class RecordWorkoutFragment extends Fragment {
+    Button workoutButton;
 
     public RecordWorkoutFragment() {
     }
@@ -19,7 +21,25 @@ public class RecordWorkoutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_record_workout, container, false);
+        View view = inflater.inflate(R.layout.fragment_record_workout, container, false);
+        workoutButton = (Button) view.findViewById(R.id.workoutButton);
+        workoutButton.setTag(1);
+        workoutButton.setText(R.string.start_workout_uppercase);
+        workoutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                final int status = (Integer) view.getTag();
+                if (status == 1) {
+                    workoutButton.setText(R.string.stop_workout_lowercase);
+                    view.setTag(0); // Set to STOP
+                }
+                else {
+                    workoutButton.setText(R.string.start_workout_uppercase);
+                    view.setTag(1); // Set to START
+                }
+            }
+        });
+        return view;
     }
 
     @Override
@@ -34,8 +54,7 @@ public class RecordWorkoutFragment extends Fragment {
         startActivity(intent);
     }
 
-    public void startWorkout(View view) {
-
+    public void startWorkout(View view) {;
     }
 
 }
