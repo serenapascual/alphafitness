@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recordWorkoutLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.serenapascual.alphafitness.MainActivity">
+
+    <fragment
+        android:name="com.serenapascual.alphafitness.RecordWorkoutFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/recordWorkoutFragment"/>
+
+    <fragment
+        android:name="com.serenapascual.alphafitness.WorkoutDetailsFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/workoutDetailsFragment"/>
+
+</RelativeLayout>

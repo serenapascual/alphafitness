@@ -9,6 +9,7 @@
     <string name="distance_uppercase">DISTANCE</string>
     <string name="duration_uppercase">DURATION</string>
     <string name="start_workout_uppercase">START WORKOUT</string>
+    <string name="stop_workout_lowercase">STOP WORKOUT</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD_72lUTocykrPv-PJo06PiI_zaLDTGmr8</string>
 
     <!-- PROFILE ACTIVITY STRINGS -->

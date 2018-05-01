@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/recordWorkoutLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.serenapascual.alphafitness.RecordWorkoutActivity">
+    tools:context="com.serenapascual.alphafitness.RecordWorkoutFragment">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,12 +77,12 @@
                 </TextView>
             </TableRow>
         </TableLayout>
-        <fragment
+        <!--Insert Google Maps fragment-->
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/map"
-            android:name="com.google.android.gms.maps.SupportMapFragment">
-        </fragment>
+            android:id="@+id/googleMapsFragmentContainer">
+        </FrameLayout>
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -97,6 +95,8 @@
             android:layout_centerInParent="true"
             android:backgroundTint="@color/green"
             android:text="@string/start_workout_uppercase"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:onClick="startWorkout"/>
     </RelativeLayout>
+
 </RelativeLayout>
