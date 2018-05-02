@@ -1,15 +1,13 @@
 <resources>
     <string name="app_name">AlphaFitness</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <!-- RECORD WORKOUT ACTIVITY STRINGS -->
     <string name="record_workout">Record Workout</string>
     <string name="distance_uppercase">DISTANCE</string>
     <string name="duration_uppercase">DURATION</string>
     <string name="start_workout_uppercase">START WORKOUT</string>
     <string name="stop_workout_lowercase">STOP WORKOUT</string>
+    <string name="profile_button_description">Profile button icon</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD_72lUTocykrPv-PJo06PiI_zaLDTGmr8</string>
 
     <!-- PROFILE ACTIVITY STRINGS -->
@@ -22,5 +20,13 @@
     <string name="calories_burned">Calories Burned</string>
     <string name="all_time">All Time</string>
     <string name="title_activity_maps">Map</string>
+
+    <!-- WORKOUT DETAIL STRINGS -->
+    <string name="workout_details">Workout Details</string>
+    <string name="avg_uppercase">AVG</string>
+    <string name="min_uppercase">MIN</string>
+    <string name="max_uppercase">MAX</string>
+    <string name="min_per_km">min/km</string>
+
 
 </resources>
