@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:configChanges="orientation"
+    android:screenOrientation="portrait"
     tools:context="com.serenapascual.alphafitness.ProfileActivity">
 
     <RelativeLayout
@@ -107,108 +109,92 @@
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
                 android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/distance"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
                 android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="2.4 km"
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/time"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="1 hr 34 min 05 sec"
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/workouts"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="2 times"
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
-                android:layout_marginBottom="1dp"
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/calories_burned"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_marginBottom="1dp"
-                android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="1,000 kcal"
                 android:textSize="19sp" />
         </TableRow>
@@ -217,7 +203,6 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_marginEnd="0dp"
                 android:layout_marginStart="1dp"
                 android:layout_marginTop="1dp"
                 android:layout_span="2"
@@ -230,108 +215,91 @@
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
                 android:layout_marginEnd="0dp"
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/distance"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="1,548.4 km"
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/time"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="1 day 23 hr 34 min 15 sec"
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/workouts"
                 android:textSize="19sp" />
 
             <TextView
                 android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="112 times"
                 android:textSize="19sp" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="1dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:background="@color/white">
 
             <TextView
                 android:layout_marginStart="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
-                android:paddingBottom="3dp"
                 android:paddingEnd="0dp"
                 android:paddingStart="7dp"
-                android:paddingTop="3dp"
                 android:text="@string/calories_burned"
                 android:textSize="19sp" />
 
             <TextView
-                android:layout_marginBottom="1dp"
                 android:layout_marginEnd="1dp"
-                android:layout_marginTop="1dp"
-                android:background="@color/white"
                 android:gravity="end"
-                android:paddingBottom="3dp"
                 android:paddingEnd="7dp"
                 android:paddingStart="0dp"
-                android:paddingTop="3dp"
                 android:text="410,000 kcal"
                 android:textSize="19sp" />
         </TableRow>

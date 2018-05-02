@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.replace(android.R.id.content, recordWorkoutFragment);
         }
         fragmentTransaction.commit();
-       }
+    }
 
     public void viewProfile(View view) {
         Intent intent =  new Intent(this, ProfileActivity.class);

@@ -6,6 +6,6 @@
     <color name="white">#FFFFFF</color>
     <color name="green">#7FB53F</color>
     <color name="darkGray">#282828</color>
-    <color name="mediumGray">#CCCCCC</color>
-    <color name="lightGray">#EEEEEE</color>
+    <color name="mediumGray">#CBCBCB</color>
+    <color name="lightGray">#EDEDED</color>
 </resources>
