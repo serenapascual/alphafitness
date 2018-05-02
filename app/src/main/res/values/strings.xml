@@ -11,7 +11,14 @@
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD_72lUTocykrPv-PJo06PiI_zaLDTGmr8</string>
 
     <!-- PROFILE ACTIVITY STRINGS -->
+    <string name="name">Henry Steinway</string>
     <string name="gender">Gender: </string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string-array name="gender_array">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
     <string name="weight">Weight: </string>
     <string name="average_weekly">Average/Weekly</string>
     <string name="distance">Distance</string>
